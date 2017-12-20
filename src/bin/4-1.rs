@@ -12,7 +12,7 @@ fn check(passphrase: &str) -> bool {
 }
 
 fn main() {
-    let input = include_str!("4.in").trim();
+    let input = include_str!("../../data/4.in").trim();
     let passphrases = input.lines();
 
     println!("{}", passphrases.filter(|p| check(p)).count());

@@ -25,7 +25,7 @@ fn solve(input: &str) -> &str {
 }
 
 fn main() {
-    println!("{}", solve(include_str!("7.in")));
+    println!("{}", solve(include_str!("../../data/7.in")));
 }
 
 #[cfg(test)]

@@ -27,7 +27,7 @@ fn solve(dirs: &str) -> i64 {
 }
 
 fn main() {
-    println!("{}", solve(include_str!("11.in")));
+    println!("{}", solve(include_str!("../../data/11.in")));
 }
 
 #[cfg(test)]

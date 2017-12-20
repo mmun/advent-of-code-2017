@@ -16,7 +16,7 @@ fn solve(input: &str) -> i64 {
 }
 
 fn main() {
-    println!("{}", solve(include_str!("1.in")));
+    println!("{}", solve(include_str!("../../data/1.in")));
 }
 
 #[cfg(test)]

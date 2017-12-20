@@ -23,7 +23,7 @@ fn score(input: &str) -> i64 {
 }
 
 fn main() {
-    println!("{}", score(include_str!("9.in")));
+    println!("{}", score(include_str!("../../data/9.in")));
 }
 
 #[cfg(test)]

@@ -38,7 +38,7 @@ fn count(i: NodeIndex, adj: &Adj, seen: &mut Seen) -> i64 {
 }
 
 fn main() {
-    println!("{}", solve(include_str!("12.in")));
+    println!("{}", solve(include_str!("../../data/12.in")));
 }
 
 #[cfg(test)]

@@ -43,7 +43,7 @@ fn visit(i: NodeIndex, adj: &Adj, seen: &mut Seen) {
 }
 
 fn main() {
-    println!("{}", solve(include_str!("12.in")));
+    println!("{}", solve(include_str!("../../data/12.in")));
 }
 
 #[cfg(test)]
